@@ -33,6 +33,8 @@ async function run() {
 
     selector = "button[type='submit']";
     await page.click(selector);
+
+    
 }
 
 run();
