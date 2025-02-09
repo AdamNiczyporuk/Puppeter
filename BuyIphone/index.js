@@ -3,6 +3,7 @@ const StealthPlugin = require('puppeteer-extra-plugin-stealth')
 puppeteer.use(StealthPlugin());
 
 const locateChrome = require('chrome-location');
+console.log(locateChrome);
 const {executablPath} = require('puppeteer');
 
 const url_16= "https://www.apple.com/pl/shop/buy-iphone/iphone-16-pro"
