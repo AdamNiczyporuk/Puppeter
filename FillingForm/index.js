@@ -6,7 +6,7 @@ puppeteer.use(StealthPlugin())
 async function run() {
     const browser = await puppeteer.launch({headless: false}); 
     const page = await browser.newPage()
-    await page.goto("https://fill.dev/form/credit-card-simple");
+    await page.goto("   ");
 
     let selector = "input[id='cc-name']";
     await page.waitForSelector(selector);
