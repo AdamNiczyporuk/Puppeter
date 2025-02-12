@@ -11,6 +11,8 @@ async function run() {
     let selector = "input[id='cc-name']";
     await page.waitForSelector(selector);
     await page.type(selector, "John Doe");
+    //Niedługo będzie automatyzacj
+    
 
     selector = "select[id='cc-type']";
     await page.waitForSelector(selector);
