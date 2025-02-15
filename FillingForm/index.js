@@ -4,6 +4,7 @@ const StealthPlugin = require('puppeteer-extra-plugin-stealth')
 puppeteer.use(StealthPlugin())
 
 async function run() {
+    //Trzeba zrobić pobieranie danych z maila
     const browser = await puppeteer.launch({headless: false}); 
     const page = await browser.newPage()
     await page.goto("   ");
