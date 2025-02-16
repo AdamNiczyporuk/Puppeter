@@ -13,6 +13,7 @@ async function run() {
     await page.waitForSelector(selector);
     await page.type(selector, "John Doe");
     //Niedługo będzie automatyzacj
+    // Sprawdzenie z czego lepiej korzytsać 
     
 
     selector = "select[id='cc-type']";
